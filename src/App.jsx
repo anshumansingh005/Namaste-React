@@ -40,7 +40,22 @@ const RestrauntCard = () => {
 };
 
 const Body = () => {
-  return <RestrauntCard />;
+  return (
+    <div className="restrauntCardList">
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+      <RestrauntCard />
+    </div>
+  );
 };
 
 const Footer = () => {
