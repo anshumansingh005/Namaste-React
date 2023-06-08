@@ -1,0 +1,21 @@
+#root {
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid red;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav-items > ul > li {
+  padding: 18px;
+}
+
+.logo {
+  width: 100px;
+}
